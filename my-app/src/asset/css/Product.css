@@ -12,6 +12,9 @@
     border-radius: 0.25rem;
     border-color: rgb(227, 164, 0);
     color:rgb(227, 164, 0);
+    max-width: 40px;
+    justify-content: center;
+    height: 30px
 }
 
 .pagi-bg {
