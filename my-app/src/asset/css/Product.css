@@ -1,0 +1,19 @@
+.product-ctn {
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+.h-ctn {
+    height: 75px;
+}
+
+.likebox {
+    display: flex;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    border-color: rgb(227, 164, 0);
+    color:rgb(227, 164, 0);
+}
+
+.pagi-bg {
+    background-color:rgb(230, 173, 51);
+}
