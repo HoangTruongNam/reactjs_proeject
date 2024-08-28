@@ -1,0 +1,1194 @@
+{
+    "Productdata": [
+        {
+            "name": "Dynex™ - 3.5mm Y-Adapter - Black",
+            "description": "This Dynex&#8482; DX-DMP3Y 4.1\" 2-way audio splitter lets you connect 2 sets of headphones to a laptop, MP3 player or CD player, so you can share your music with a friend.",
+            "brand": "Dynex™",
+            "categories": [
+                "Audio",
+                "Cables & Chargers",
+                "MP3 Player Cables"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Audio",
+                "lvl1": "Audio > Cables & Chargers",
+                "lvl2": "Audio > Cables & Chargers > MP3 Player Cables"
+            },
+            "type": "Connectivity",
+            "price": 4.99,
+            "price_range": "1 - 50",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/4811411_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/4811411/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 1971,
+            "objectID": "4811411",
+            "_snippetResult": {
+                "description": {
+                    "value": "This Dynex™ DX-DMP3Y 4.1\" 2-way audio …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dynex™ - 3.5mm Y-Adapter - Black",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "This Dynex™ DX-DMP3Y 4.1\" 2-way audio splitter lets you connect 2 sets of headphones to a laptop, MP3 player or CD player, so you can share your music with a friend.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dynex™",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Audio",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Cables & Chargers",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "MP3 Player Cables",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "LG - 1.1 Cu. Ft. Mid-Size Microwave - Stainless-Steel",
+            "description": "LG LCS1112ST Mid-Size Microwave: Make easy meals to welcome your family home. Hassle-free cooking buttons let you cook and warm food with the touch of a button, while the energy-saving setting turns off the display after 5 minutes of non-use, dropping power consumption to less than 0.1 watts.",
+            "brand": "LG",
+            "categories": [
+                "Appliances",
+                "Microwaves",
+                "All Microwaves"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Microwaves",
+                "lvl2": "Appliances > Microwaves > All Microwaves"
+            },
+            "type": "Mid size",
+            "price": 139.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/6386677_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/6386677/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 21130,
+            "Product Name": "1.1 Cu. Ft. Mid-Size Microwave",
+            "Brand": "LG",
+            "Model Number": "LCS1112ST",
+            "Product Height": "11.44 inches",
+            "Product Width": "20.06 inches",
+            "Product Depth": "15.94 inches",
+            "Product Weight": "37 pounds",
+            "Capacity": "1.1 cubic feet",
+            "Microwave Size": "Mid-size",
+            "Microwave Type": "Countertop",
+            "Timer": "Yes",
+            "Child Lock": "Yes",
+            "Turntable": "Yes",
+            "Interior Material": "Stainless Steel",
+            "Turntable Diameter": "12 inches",
+            "Sensor Cook": "No",
+            "Wattage": "1000 watts",
+            "Manufacturer's Warranty - Parts": "1 Year; 10 Years Limited: magnetron",
+            "Manufacturer's Warranty - Labor": "1 Year; 10 Years Limited: magnetron",
+            "UPC": "048231318204",
+            "objectID": "6386677",
+            "_snippetResult": {
+                "description": {
+                    "value": "LG LCS1112ST Mid-Size Microwave: Make easy meals to welcome …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "LG - 1.1 Cu. Ft. Mid-Size Microwave - Stainless-Steel",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "LG LCS1112ST Mid-Size Microwave: Make easy meals to welcome your family home. Hassle-free cooking buttons let you cook and warm food with the touch of a button, while the energy-saving setting turns off the display after 5 minutes of non-use, dropping power consumption to less than 0.1 watts.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "LG",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "All Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Insignia™ - 2.6 Cu. Ft. Compact Refrigerator - Black",
+            "description": "Only at Best Buy  Organize your snacks and beverages easily with this Insignia&#8482; NS-CF26BK6 compact refrigerator, which offers glass shelving and can storage for flexibility. Electromechanical controls offer easy adjustments.",
+            "brand": "Insignia™",
+            "categories": [
+                "Appliances",
+                "Small Kitchen Appliances",
+                "Mini Refrigerators"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Small Kitchen Appliances",
+                "lvl2": "Appliances > Small Kitchen Appliances > Mini Refrigerators"
+            },
+            "type": "Compact refrigerator",
+            "price": 119.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/3828012_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/3828012/pdp",
+            "free_shipping": false,
+            "rating": 4,
+            "popularity": 20956,
+            "objectID": "3828012",
+            "_snippetResult": {
+                "description": {
+                    "value": "Only at Best Buy  Organize your snacks and beverages easily …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Insignia™ - 2.6 Cu. Ft. Compact Refrigerator - Black",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Only at Best Buy  Organize your snacks and beverages easily with this Insignia™ NS-CF26BK6 compact refrigerator, which offers glass shelving and can storage for flexibility. Electromechanical controls offer easy adjustments.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Insignia™",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Small Kitchen Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Mini Refrigerators",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "iRobot - Roomba 650 Vacuuming Robot - Black",
+            "description": "iRobot Roomba 650 Vacuum Cleaning Robot: The Roomba 650 Vacuum Cleaning Robot provides a thorough clean, all at the push of a button. The 3-Stage Cleaning System picks up dust, pet hair and large debris like cereal. Preset Roomba to clean when it's convenient for you, so you can keep up with everyday mess.",
+            "brand": "iRobot",
+            "categories": [
+                "Appliances",
+                "Robot Vacuums and Mops",
+                "Robot Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Robot Vacuums and Mops",
+                "lvl2": "Appliances > Robot Vacuums and Mops > Robot Vacuums"
+            },
+            "type": "Robotics",
+            "price": 374.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/5768586_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/5768586/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20933,
+            "objectID": "5768586",
+            "_snippetResult": {
+                "description": {
+                    "value": "iRobot Roomba 650 Vacuum Cleaning Robot: The Roomba 650 Vacuum …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "iRobot - Roomba 650 Vacuuming Robot - Black",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "iRobot Roomba 650 Vacuum Cleaning Robot: The Roomba 650 Vacuum Cleaning Robot provides a thorough clean, all at the push of a button. The 3-Stage Cleaning System picks up dust, pet hair and large debris like cereal. Preset Roomba to clean when it's convenient for you, so you can keep up with everyday mess.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "iRobot",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Robot Vacuums and Mops",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Robot Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shark - Navigator Lift-Away Deluxe Bagless Upright Vacuum - Blue",
+            "description": "With a portable, detachable canister, this Shark Navigator Lift-Away Deluxe NV360 upright vacuum makes it easy to clean your home's stairs and hard-to-reach areas. The Anti-Allergen Complete Seal technology helps reduce dust and other allergens.",
+            "brand": "Shark",
+            "categories": [
+                "Appliances",
+                "Upright Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Upright Vacuums"
+            },
+            "type": "Upright",
+            "price": 199.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/7775211_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/7775211/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20921,
+            "objectID": "7775211",
+            "_snippetResult": {
+                "description": {
+                    "value": "With a portable, detachable canister, this Shark Navigator Lift-Away …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Shark - Navigator Lift-Away Deluxe Bagless Upright Vacuum - Blue",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "With a portable, detachable canister, this Shark Navigator Lift-Away Deluxe NV360 upright vacuum makes it easy to clean your home's stairs and hard-to-reach areas. The Anti-Allergen Complete Seal technology helps reduce dust and other allergens.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Shark",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Upright Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "LG - 1.5 Cu. Ft. Mid-Size Microwave - Stainless Steel",
+            "description": "LG LCRT1513ST Microwave: This LG microwave's sleek, modern exterior complements any kitchen d&#233;cor, and the display is packed with functions that make it a breeze to cook or defrost your favorite meals.",
+            "brand": "LG",
+            "categories": [
+                "Appliances",
+                "Microwaves",
+                "All Microwaves"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Microwaves",
+                "lvl2": "Appliances > Microwaves > All Microwaves"
+            },
+            "type": "Mid size",
+            "price": 189.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/8216064_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/8216064/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20912,
+            "objectID": "8216064",
+            "_snippetResult": {
+                "description": {
+                    "value": "LG LCRT1513ST Microwave: This LG microwave's sleek, modern exterior …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "LG - 1.5 Cu. Ft. Mid-Size Microwave - Stainless Steel",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "LG LCRT1513ST Microwave: This LG microwave's sleek, modern exterior complements any kitchen décor, and the display is packed with functions that make it a breeze to cook or defrost your favorite meals.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "LG",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "All Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "LG - 2.0 Cu. Ft. Full-Size Microwave - Stainless Steel",
+            "description": "LG LCRT2010ST Full-Size Microwave: Convenient one-touch cooking buttons, preset controls and sensor cooking abilities make it easy to quickly prepare food for even the most impatient crowds.",
+            "brand": "LG",
+            "categories": [
+                "Appliances",
+                "Microwaves",
+                "All Microwaves"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Microwaves",
+                "lvl2": "Appliances > Microwaves > All Microwaves"
+            },
+            "type": "Full size",
+            "price": 209.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/1792151_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/1792151/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20800,
+            "objectID": "1792151",
+            "_snippetResult": {
+                "description": {
+                    "value": "LG LCRT2010ST Full-Size Microwave: Convenient one-touch cooking buttons …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "LG - 2.0 Cu. Ft. Full-Size Microwave - Stainless Steel",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "LG LCRT2010ST Full-Size Microwave: Convenient one-touch cooking buttons, preset controls and sensor cooking abilities make it easy to quickly prepare food for even the most impatient crowds.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "LG",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "All Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shark - Rotator Professional Lift-Away HEPA Bagless 2-in-1 Upright Vacuum - Red",
+            "description": "Shark Rotator Professional Lift-Away Upright Vacuum Cleaner: Finish vacuuming chores more quickly and easily with this 2-in-1 upright vacuum cleaner that gives you more convenient ways to clean.",
+            "brand": "Shark",
+            "categories": [
+                "Appliances",
+                "Upright Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Upright Vacuums"
+            },
+            "type": "Upright",
+            "price": 229.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/1308183846_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/7039049/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20757,
+            "objectID": "7039049",
+            "_snippetResult": {
+                "description": {
+                    "value": "Shark Rotator Professional Lift-Away Upright Vacuum Cleaner: Finish vacuuming …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Shark - Rotator Professional Lift-Away HEPA Bagless 2-in-1 Upright Vacuum - Red",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Shark Rotator Professional Lift-Away Upright Vacuum Cleaner: Finish vacuuming chores more quickly and easily with this 2-in-1 upright vacuum cleaner that gives you more convenient ways to clean.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Shark",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Upright Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Panasonic - 1.3 Cu. Ft. Mid-Size Microwave - Stainless steel/black/silver",
+            "description": "Cook or reheat meals with this Panasonic microwave oven. Inverter technology delivers heat consistently throughout food and beverages to minimize hot spots and burn risks. This Panasonic microwave oven features an auto cook and reheat function, and you can choose from several language options for the menu display to increase accessibility.",
+            "brand": "Panasonic",
+            "categories": [
+                "Appliances",
+                "Microwaves",
+                "All Microwaves"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Microwaves",
+                "lvl2": "Appliances > Microwaves > All Microwaves"
+            },
+            "type": "Mid size",
+            "price": 134.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/4981000_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/4981000/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20739,
+            "objectID": "4981000",
+            "_snippetResult": {
+                "description": {
+                    "value": "Cook or reheat meals with this Panasonic microwave oven. Inverter …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Panasonic - 1.3 Cu. Ft. Mid-Size Microwave - Stainless steel/black/silver",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Cook or reheat meals with this Panasonic microwave oven. Inverter technology delivers heat consistently throughout food and beverages to minimize hot spots and burn risks. This Panasonic microwave oven features an auto cook and reheat function, and you can choose from several language options for the menu display to increase accessibility.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Panasonic",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "All Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "LG - 2.0 Cu. Ft. Mid-Size Microwave - Black Stainless",
+            "description": "LG Microwave: Heat up snacks, coffee and leftovers quickly in this countertop microwave, which offers 10 power levels to suit your needs. Sensor cooking makes real-time adjustments for you to ensure thorough heating.",
+            "brand": "LG",
+            "categories": [
+                "Appliances",
+                "Microwaves",
+                "All Microwaves"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Microwaves",
+                "lvl2": "Appliances > Microwaves > All Microwaves"
+            },
+            "type": "Full size",
+            "price": 239.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/4335802_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/4335802/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20715,
+            "objectID": "4335802",
+            "_snippetResult": {
+                "description": {
+                    "value": "LG Microwave: Heat up snacks, coffee and leftovers quickly in …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "LG - 2.0 Cu. Ft. Mid-Size Microwave - Black Stainless",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "LG Microwave: Heat up snacks, coffee and leftovers quickly in this countertop microwave, which offers 10 power levels to suit your needs. Sensor cooking makes real-time adjustments for you to ensure thorough heating.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "LG",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "All Microwaves",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dyson - Ball Multi Floor Bagless Upright Vacuum - Iron/Yellow",
+            "description": "Keep your floors spotless with this Dyson Ball 206900-01 upright vacuum, which features cyclonic technology and a reusable cloth filter to remove dust and messes with ease. The combination and stair tool helps you clean areas throughout the home.",
+            "brand": "Dyson",
+            "categories": [
+                "Appliances",
+                "Upright Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Upright Vacuums"
+            },
+            "type": "Upright",
+            "price": 399.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/2498029_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/2498029/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20702,
+            "objectID": "2498029",
+            "_snippetResult": {
+                "description": {
+                    "value": "Keep your floors spotless with this Dyson Ball 206900-01 …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dyson - Ball Multi Floor Bagless Upright Vacuum - Iron/Yellow",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Keep your floors spotless with this Dyson Ball 206900-01 upright vacuum, which features cyclonic technology and a reusable cloth filter to remove dust and messes with ease. The combination and stair tool helps you clean areas throughout the home.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dyson",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Upright Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dyson - V8 Absolute Bagless Cordless Stick Vacuum - Multi",
+            "description": "Get powerful cleaning with this Dyson cord-free vacuum. Its lithium-ion battery delivers up to 40 minutes of cleaning without losing any power, and it easily converts between stick and handheld modes to clean stairs, ceilings and upholstery. The suction on this Dyson cord-free vacuum is strong enough to deep clean carpets and remove pet hair.",
+            "brand": "Dyson",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 599.99,
+            "price_range": "500 - 2000",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/5450402_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/5450402/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20521,
+            "objectID": "5450402",
+            "_snippetResult": {
+                "description": {
+                    "value": "Get powerful cleaning with this Dyson cord-free vacuum. Its …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dyson - V8 Absolute Bagless Cordless Stick Vacuum - Multi",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Get powerful cleaning with this Dyson cord-free vacuum. Its lithium-ion battery delivers up to 40 minutes of cleaning without losing any power, and it easily converts between stick and handheld modes to clean stairs, ceilings and upholstery. The suction on this Dyson cord-free vacuum is strong enough to deep clean carpets and remove pet hair.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dyson",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dyson - V6 Motorhead Bagless Cordless Stick Vacuum - Fuchsia/Iron",
+            "description": "Dyson V6 Motorhead Bagless Cordless Stick Vacuum: This powerful stick vacuum's direct-drive cleaner head provides 75% more brush bar power than the Dyson V6 vacuum. The wand easily detaches for handheld cleaning and the docking station charges the vacuum so it's always ready to use.",
+            "brand": "Dyson",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 399.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/2503887_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/2503887/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20447,
+            "objectID": "2503887",
+            "_snippetResult": {
+                "description": {
+                    "value": "Dyson V6 Motorhead Bagless Cordless Stick Vacuum: This powerful stick …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dyson - V6 Motorhead Bagless Cordless Stick Vacuum - Fuchsia/Iron",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Dyson V6 Motorhead Bagless Cordless Stick Vacuum: This powerful stick vacuum's direct-drive cleaner head provides 75% more brush bar power than the Dyson V6 vacuum. The wand easily detaches for handheld cleaning and the docking station charges the vacuum so it's always ready to use.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dyson",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shark - Bagless Cordless Hand Vac - Lavender",
+            "description": "Shark Bagless Cordless Hand Vac:Small spills, pet hair and more are no trouble for this hand vac that features Twister cyclonic technology for powerful, reliable suction. The XL motorized pet hair brush is ideal for carpets, upholstery, stairs and more.",
+            "brand": "Shark",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 64.99,
+            "price_range": "50 - 100",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/9946722_rb.jpg",
+            "url": "https://api.bestbuy.com/click/-/9946722/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20218,
+            "objectID": "9946722",
+            "_snippetResult": {
+                "description": {
+                    "value": "Shark Bagless Cordless Hand Vac:Small spills, pet hair and …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Shark - Bagless Cordless Hand Vac - Lavender",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Shark Bagless Cordless Hand Vac:Small spills, pet hair and more are no trouble for this hand vac that features Twister cyclonic technology for powerful, reliable suction. The XL motorized pet hair brush is ideal for carpets, upholstery, stairs and more.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Shark",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Dyson - V6 Animal Bagless Cordless Stick Vacuum - Nickel/Purple",
+            "description": "Dyson V6 Animal 210692-01 Bagless Cordless Stick Vacuum: This high-performance stick vacuum comes with a mini motorized tool for removing pet hair and ground-in dirt for a thorough clean. The wand easily detaches for handheld cleaning and the docking station charges the vacuum so it's ready to use.",
+            "brand": "Dyson",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 499.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/2506056_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/2506056/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20142,
+            "objectID": "2506056",
+            "_snippetResult": {
+                "description": {
+                    "value": "Dyson V6 Animal 210692-01 Bagless Cordless Stick Vacuum: This …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dyson - V6 Animal Bagless Cordless Stick Vacuum - Nickel/Purple",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Dyson V6 Animal 210692-01 Bagless Cordless Stick Vacuum: This high-performance stick vacuum comes with a mini motorized tool for removing pet hair and ground-in dirt for a thorough clean. The wand easily detaches for handheld cleaning and the docking station charges the vacuum so it's ready to use.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dyson",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shark - Rocket DeluxePRO Bagless Vacuum - Lavender",
+            "description": "Shark Rocket DeluxePro Bagless Vacuum: This lightweight and maneuverable vacuum offers powerful suction and amazing performance, letting you clean your floor, ceiling and everything in between. The top portion detaches for use as a hand vac.",
+            "brand": "Shark",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 229.99,
+            "price_range": "200 - 500",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/7931509_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/7931509/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 20002,
+            "objectID": "7931509",
+            "_snippetResult": {
+                "description": {
+                    "value": "Shark Rocket DeluxePro Bagless Vacuum: This lightweight and maneuverable vacuum …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Shark - Rocket DeluxePRO Bagless Vacuum - Lavender",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Shark Rocket DeluxePro Bagless Vacuum: This lightweight and maneuverable vacuum offers powerful suction and amazing performance, letting you clean your floor, ceiling and everything in between. The top portion detaches for use as a hand vac.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Shark",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "BISSELL - BOLT Bagless Cordless 2-in-1 Pet Handheld/Stick Vacuum - Bossanova Blue/Silver",
+            "description": "BISSELL BOLT Bagless Cordless 2-in-1 Pet Handheld/Stick Vacuum: This vacuum sucks up dirt and pet hair to leave your home clean and healthy. The 12V battery allows cordless operation for easy maneuverability and the removable hand vacuum makes spot cleaning simple.",
+            "brand": "BISSELL",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 99.99,
+            "price_range": "50 - 100",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/4839600_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/4839600/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 19903,
+            "objectID": "4839600",
+            "_snippetResult": {
+                "description": {
+                    "value": "BISSELL BOLT Bagless Cordless 2-in-1 Pet Handheld/Stick …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "BISSELL - BOLT Bagless Cordless 2-in-1 Pet Handheld/Stick Vacuum - Bossanova Blue/Silver",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "BISSELL BOLT Bagless Cordless 2-in-1 Pet Handheld/Stick Vacuum: This vacuum sucks up dirt and pet hair to leave your home clean and healthy. The 12V battery allows cordless operation for easy maneuverability and the removable hand vacuum makes spot cleaning simple.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "BISSELL",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Shark - Pet Perfect Bagless Cordless Hand Vac - Blue",
+            "description": "Effectively remove pet hair, dust, dirt and debris from carpets, bare floors, furniture and other surfaces with this Shark Pet Perfect SV75Z bagless cordless hand vac that features twister cyclonic technology for optimal suction.",
+            "brand": "Shark",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 39.99,
+            "price_range": "1 - 50",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/5469072_rb.jpg",
+            "url": "https://api.bestbuy.com/click/-/5469072/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 19823,
+            "objectID": "5469072",
+            "_snippetResult": {
+                "description": {
+                    "value": "Effectively remove pet hair, dust, dirt and debris from carpets …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Shark - Pet Perfect Bagless Cordless Hand Vac - Blue",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "Effectively remove pet hair, dust, dirt and debris from carpets, bare floors, furniture and other surfaces with this Shark Pet Perfect SV75Z bagless cordless hand vac that features twister cyclonic technology for optimal suction.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Shark",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Electrolux - Ergorapido LiTHIUM ION Brushroll Clean Xtra Bagless Cordless 2-in-1 Handheld/Stick Vacuum - Watermelon Red",
+            "description": "With a 14.4V Lithium Ion battery, this Electrolux Ergorapido LiTHIUM ION Brushroll Clean Xtra EL2081A vacuum provides up to 30 minutes of cordless run time per full charge. The 2-in-1 design lets you convert from stick to handheld use.",
+            "brand": "Electrolux",
+            "categories": [
+                "Appliances",
+                "Handheld & Stick Vacuums"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Appliances",
+                "lvl1": "Appliances > Handheld & Stick Vacuums"
+            },
+            "type": "Hand-held",
+            "price": 159.99,
+            "price_range": "100 - 200",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/5074026_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/5074026/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 19531,
+            "objectID": "5074026",
+            "_snippetResult": {
+                "description": {
+                    "value": "With a 14.4V Lithium Ion battery, this Electrolux Ergorapido …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Electrolux - Ergorapido LiTHIUM ION Brushroll Clean Xtra Bagless Cordless 2-in-1 Handheld/Stick Vacuum - Watermelon Red",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "With a 14.4V Lithium Ion battery, this Electrolux Ergorapido LiTHIUM ION Brushroll Clean Xtra EL2081A vacuum provides up to 30 minutes of cordless run time per full charge. The 2-in-1 design lets you convert from stick to handheld use.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Electrolux",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Appliances",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Handheld & Stick Vacuums",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        }
+        
+    ],
+
+    "Categories":[
+        {
+           "title":"Appliances",
+           "child":[
+            {
+                "title":[
+                        "Air Purifiers",
+                        "Fans",
+                        "Handheld & Stick Vacuums",
+                        "Heaters",
+                        "Humidifiers",
+                        "Microwaves",
+                        "Refrigerators",
+                        "Robot Vacuums and Mops",
+                        "Small Kitchen Appliances",
+                        "Upright Vacuums"
+                ],
+                "child":[
+                    {
+                        "title":"All Microwaves",
+                        "child":[]
+                    }
+                ]
+                
+            }
+           ]
+        }
+    ]
+  }
+  

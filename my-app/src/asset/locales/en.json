@@ -1,3 +1,15 @@
 {
-    "category":"category"
+    "category":"category",
+    "filter":"filter",
+    "brand":"Brand",
+    "price":"Price",
+    "free-shipping":"Free shipping",
+    "fs-qote":"Display only items with free shipping",
+    "rating":"Ratings",
+    "price-ascending":"Price ascending",
+    "price-descending":"Price descending",
+    "4h":"4 hits per page",
+    "8h":"8 hits per page",
+    "12h":"12 hits per page",
+    "16h":"16 hits per page"
 }
