@@ -1,6 +1,73 @@
 {
     "Productdata": [
         {
+<<<<<<< HEAD
+            "name": "Dynex™ - 3.5mm Y-Adapter - Black",
+            "description": "This Dynex&#8482; DX-DMP3Y 4.1\" 2-way audio splitter lets you connect 2 sets of headphones to a laptop, MP3 player or CD player, so you can share your music with a friend.",
+            "brand": "Dynex™",
+            "categories": [
+                "Audio",
+                "Cables & Chargers",
+                "MP3 Player Cables"
+            ],
+            "hierarchicalCategories": {
+                "lvl0": "Audio",
+                "lvl1": "Audio > Cables & Chargers",
+                "lvl2": "Audio > Cables & Chargers > MP3 Player Cables"
+            },
+            "type": "Connectivity",
+            "price": 4.99,
+            "price_range": "1 - 50",
+            "image": "https://cdn-demo.algolia.com/bestbuy-0118/4811411_sb.jpg",
+            "url": "https://api.bestbuy.com/click/-/4811411/pdp",
+            "free_shipping": true,
+            "rating": 4,
+            "popularity": 1971,
+            "objectID": "4811411",
+            "_snippetResult": {
+                "description": {
+                    "value": "This Dynex™ DX-DMP3Y 4.1\" 2-way audio …",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Dynex™ - 3.5mm Y-Adapter - Black",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "description": {
+                    "value": "This Dynex™ DX-DMP3Y 4.1\" 2-way audio splitter lets you connect 2 sets of headphones to a laptop, MP3 player or CD player, so you can share your music with a friend.",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "brand": {
+                    "value": "Dynex™",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "categories": [
+                    {
+                        "value": "Audio",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "Cables & Chargers",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    {
+                        "value": "MP3 Player Cables",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                ]
+            }
+        },
+        {
+=======
+>>>>>>> main
             "name": "LG - 1.1 Cu. Ft. Mid-Size Microwave - Stainless-Steel",
             "description": "LG LCS1112ST Mid-Size Microwave: Make easy meals to welcome your family home. Hassle-free cooking buttons let you cook and warm food with the touch of a button, while the energy-saving setting turns off the display after 5 minutes of non-use, dropping power consumption to less than 0.1 watts.",
             "brand": "LG",
@@ -103,7 +170,11 @@
             "price_range": "100 - 200",
             "image": "https://cdn-demo.algolia.com/bestbuy-0118/3828012_sb.jpg",
             "url": "https://api.bestbuy.com/click/-/3828012/pdp",
+<<<<<<< HEAD
+            "free_shipping": false,
+=======
             "free_shipping": true,
+>>>>>>> main
             "rating": 4,
             "popularity": 20956,
             "objectID": "3828012",

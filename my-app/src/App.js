@@ -4,25 +4,26 @@ import './asset/scripts/i18n';
 import './asset/css/Product.css';
 import Product from './components/Product';
 import Brand from './components/Brand';
-import Category from './components/Category';
 import Toggle from './components/Toggle';
 import PriceRangeSlider from './components/PriceRangeSlider';
-import Header from './components/Header';
 import SortByPrice from './components/SortByPrice';
 import ItemsPerPageSelector from './components/ItemsPerPageSelector';
+import RatingFilter from './components/RatingFilter'; 
+import Accordion from './components/Categories';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [productData, setProductData] = useState([]);
-  const [brand, setBrand] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [selectedBrand, setSelectedBrand] = useState(null);
+  const [brands, setBrands] = useState([]);
+  const [selectedBrands, setSelectedBrands] = useState([]);
   const [totalPages, setTotalPages] = useState(1);
   const [ratingCounts, setRatingCounts] = useState({ 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 });
   const [sortOrder, setSortOrder] = useState('asc');
   const [itemsPerPage, setItemsPerPage] = useState(8);
   const [priceRange, setPriceRange] = useState([0, 640]);
-  const [selectedRating, setSelectedRating] = useState(null); // New state for selected rating
+  const [selectedRating, setSelectedRating] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [isFreeShipping, setIsFreeShipping] = useState(false); // New state for toggle
 
   useEffect(() => {
     fetch('http://localhost:3001/Productdata')
@@ -30,17 +31,10 @@ function App() {
       .then(data => {
         setProductData(data);
         const uniqueBrands = [...new Set(data.map(item => item.brand))];
-        setBrand(uniqueBrands);
+        setBrands(uniqueBrands);
         setTotalPages(Math.ceil(data.length / itemsPerPage));
         const counts = countRatings(data);
         setRatingCounts(counts);
-      })
-      .catch(error => console.error('Error fetching data:', error));
-
-    fetch(`${process.env.REACT_APP_API_HOST}/Categories`)
-      .then(response => response.json())
-      .then(data => {
-        setCategories(data);
       })
       .catch(error => console.error('Error fetching data:', error));
   }, [itemsPerPage]);
@@ -53,14 +47,28 @@ function App() {
     setPriceRange(newRange);
   };
 
+  const handleBrandChange = (brand) => {
+    setSelectedBrands(prevSelectedBrands => {
+      if (prevSelectedBrands.includes(brand)) {
+        return prevSelectedBrands.filter(b => b !== brand);
+      } else {
+        return [...prevSelectedBrands, brand];
+      }
+    });
+  };
+
   const sortedProducts = [...productData].sort((a, b) => {
     return sortOrder === 'asc' ? a.price - b.price : b.price - a.price;
   });
 
   const filteredProducts = sortedProducts.filter(item => 
-    (!selectedBrand || item.brand === selectedBrand) &&
+    (selectedBrands.length === 0 || selectedBrands.includes(item.brand)) &&
     item.price >= priceRange[0] && item.price <= priceRange[1] &&
-    (!selectedRating || item.rating === selectedRating) // Filter by selected rating
+    (!selectedRating || item.rating === selectedRating) &&
+    (!selectedCategory || 
+      (item.categories[0] === selectedCategory.categoryFirst &&
+       item.categories[1] === selectedCategory.categorySecond)) &&
+    (!isFreeShipping || item.free_shipping) 
   );
 
   const currentProducts = filteredProducts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
@@ -68,7 +76,7 @@ function App() {
   useEffect(() => {
     setTotalPages(Math.ceil(filteredProducts.length / itemsPerPage));
     setCurrentPage(1);
-  }, [selectedBrand, selectedRating, productData, sortOrder, itemsPerPage, filteredProducts.length]);
+  }, [selectedBrands, selectedRating, productData, sortOrder, itemsPerPage, filteredProducts.length, isFreeShipping]); // Add isFreeShipping to the dependency array
 
   const handlePageChange = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {
@@ -81,18 +89,19 @@ function App() {
   };
 
   const handleRatingClick = (rating) => {
-    setSelectedRating(rating); // Update selected rating
+    setSelectedRating(rating);
+  };
+
+  const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
   };
 
   const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
 
   const { t, i18n } = useTranslation();
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-  };
-
-  const handleBrandClick = (brandName) => {
-    setSelectedBrand(brandName);
   };
 
   const countRatings = (products) => {
@@ -108,48 +117,39 @@ function App() {
 
   return (
     <div>
-      <Header></Header>
-      <div className="flex mr-10 border-t">
-        
-        <div className="filter min-w-72 max-w-72 border-t">
+    <button onClick={() => changeLanguage('en')}>English</button>
+    <button onClick={() => changeLanguage('vi')}>Tiếng Việt</button> 
+
+      <div className="flex mr-10 mt-96 mx-20">
+        <div className="filter min-w-72 max-w-72 mr-8">
           <div>
-            <h1>{t('category')}</h1>
-            <button onClick={() => changeLanguage('en')}>English</button>
-            <button onClick={() => changeLanguage('vi')}>Tiếng Việt</button>
+            <h1 className="mb-4">{t('filter')}</h1>
           </div>
-          <div>
-            {categories.map((category) => (
-              <Category key={category} category={category} />
+          <div className="border-t">
+            <Accordion products={productData} onCategorySelect={handleCategorySelect} />
+          </div>
+          <div className="border-t mt-10 pt-10">
+            <div className="mb-4 font-bold">{t('brand')}</div>
+            {brands.map((b, idx) => (
+              <Brand key={idx} brand={b} isSelected={selectedBrands.includes(b)} onChange={handleBrandChange} />
             ))}
           </div>
-          <div>
-            {brand.map((b, idx) => (
-              <Brand key={idx} brand={b} onClick={() => handleBrandClick(b)} />
-            ))}
-          </div>
-          <div>
+          <div className="border-t mt-10 pt-10">
+            <div className="mb-4 font-bold">{t('price')}</div>
             <PriceRangeSlider minPrice={0} maxPrice={640} onChange={handlePriceRangeChange} />
           </div>
-          <Toggle />
-          <div>
-            <h2>Rating Counts</h2>
-            <ul className='flex flex-col-reverse'>
-              {Object.entries(ratingCounts).map(([rating, count]) => (
-                <li key={rating}>
-                  <button onClick={() => handleRatingClick(Number(rating))}>
-                    Rating {rating}: {count}
-                  </button>
-                </li>
-              ))}
-            </ul>
+          <div className="border-t mt-10 pt-10">
+            <Toggle toggled={isFreeShipping} onToggle={() => setIsFreeShipping(prev => !prev)} /> {/* Pass props */}
+          </div>
+          <div className="border-t mt-10 pt-10">
+            <RatingFilter ratingCounts={ratingCounts} onRatingClick={handleRatingClick} /> 
           </div>
         </div>
-        
-        <div >
-        <div className="flex justify-end">
-              <SortByPrice sortOrder={sortOrder} onSortChange={handleSortChange} />
-              <ItemsPerPageSelector itemsPerPage={itemsPerPage} onItemsPerPageChange={handleItemsPerPageChange} />
-            </div>
+        <div>
+          <div className="flex justify-end">
+            <SortByPrice sortOrder={sortOrder} onSortChange={handleSortChange} />
+            <ItemsPerPageSelector itemsPerPage={itemsPerPage} onItemsPerPageChange={handleItemsPerPageChange} />
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 border-t">
             {currentProducts.map((item) => (
               <Product
