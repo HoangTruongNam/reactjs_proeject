@@ -97,6 +97,7 @@ function App() {
   };
 
   const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
+
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {

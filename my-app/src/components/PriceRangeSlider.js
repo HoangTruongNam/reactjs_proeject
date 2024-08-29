@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import '../asset/scripts/i18n';
+=======
+// components/PriceRangeSlider.js
+>>>>>>> main
 import React, { useState } from 'react';
 import '../asset/css/PriceRangeSlider.css'; // Import CSS for styling
 
@@ -19,7 +23,11 @@ const PriceRangeSlider = ({ minPrice, maxPrice, onChange }) => {
 
   return (
     <div className="price-range-slider min-w-60">
+<<<<<<< HEAD
       <label> {`$${priceRange[0]} - $${priceRange[1]}`}</label>
+=======
+      <label>Price Range: {`$${priceRange[0]} - $${priceRange[1]}`}</label>
+>>>>>>> main
       <div className="slider-container">
         <input
           type="range"

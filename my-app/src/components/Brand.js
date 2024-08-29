@@ -1,5 +1,6 @@
 import React from 'react';
 
+<<<<<<< HEAD
 function Brand({ brand, isSelected, onChange }) {
   return (
     <div>
@@ -10,6 +11,14 @@ function Brand({ brand, isSelected, onChange }) {
         className="cursor-pointer"
       />
       <label className="ml-2">{brand}</label>
+=======
+function Brand({ brand, onClick }) {
+  return (
+    <div>
+      <div onClick={onClick} className="cursor-pointer">
+        {brand}
+      </div> 
+>>>>>>> main
     </div>
   );
 }
