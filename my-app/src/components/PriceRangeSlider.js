@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import '../asset/scripts/i18n';
-=======
-// components/PriceRangeSlider.js
->>>>>>> main
 import React, { useState } from 'react';
-import '../asset/css/PriceRangeSlider.css'; // Import CSS for styling
+import '../asset/css/PriceRangeSlider.css'; 
 
 const PriceRangeSlider = ({ minPrice, maxPrice, onChange }) => {
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
@@ -13,8 +8,6 @@ const PriceRangeSlider = ({ minPrice, maxPrice, onChange }) => {
     const newRange = [...priceRange];
     const index = Number(event.target.dataset.index);
     newRange[index] = Number(event.target.value);
-
-    // Ensure the min value is less than or equal to the max value
     if (newRange[0] < newRange[1]) {
       setPriceRange(newRange);
       onChange(newRange);
@@ -23,12 +16,8 @@ const PriceRangeSlider = ({ minPrice, maxPrice, onChange }) => {
 
   return (
     <div className="price-range-slider min-w-60">
-<<<<<<< HEAD
       <label> {`$${priceRange[0]} - $${priceRange[1]}`}</label>
-=======
-      <label>Price Range: {`$${priceRange[0]} - $${priceRange[1]}`}</label>
->>>>>>> main
-      <div className="slider-container">
+      <div className="slider-container mt-4">
         <input
           type="range"
           min={minPrice}

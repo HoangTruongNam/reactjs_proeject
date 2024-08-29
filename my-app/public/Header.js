@@ -1,9 +1,9 @@
 import '../asset/css/Header.css'
 import React from 'react';
 
-function Header({ onSearchChange }) { 
+function Header({ onSearchChange }) { // Nhận hàm tìm kiếm như một prop
     const handleSearchInputChange = (e) => {
-      onSearchChange(e.target.value); 
+      onSearchChange(e.target.value); // Truyền giá trị tìm kiếm ngược lại cho App
     };
   return (
     <div>
@@ -11,7 +11,7 @@ function Header({ onSearchChange }) {
         <img src="https://instantsearchjs.netlify.app/examples/react/e-commerce/cover.c5eecd4b.png" alt=""></img>
       </div>
       <div className=" pt-20 flex justify-center items-center">
-        <img className="w-24" src="svgexport-1.svg" alt='logo'></img>
+        <img src="../asset/icon/svgexport-1.png" alt='logo'></img>
       </div>
       <div className="logo flex justify-center items-center text-4xl text-white">Stop looking for an item — find it.</div>
       <div className="">

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import './asset/scripts/i18n';
+import './asset/scripts/i18n'
 import './asset/css/Product.css';
 import Product from './components/Product';
 import Brand from './components/Brand';
@@ -10,6 +10,9 @@ import SortByPrice from './components/SortByPrice';
 import ItemsPerPageSelector from './components/ItemsPerPageSelector';
 import RatingFilter from './components/RatingFilter'; 
 import Accordion from './components/Categories';
+import Header from './components/Header';
+import Reset from './components/ResetFilter';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -23,10 +26,11 @@ function App() {
   const [priceRange, setPriceRange] = useState([0, 640]);
   const [selectedRating, setSelectedRating] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const [isFreeShipping, setIsFreeShipping] = useState(false); // New state for toggle
+  const [isFreeShipping, setIsFreeShipping] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3001/Productdata')
+    fetch(`${process.env.REACT_APP_API}/Productdata`)
       .then(response => response.json())
       .then(data => {
         setProductData(data);
@@ -57,6 +61,10 @@ function App() {
     });
   };
 
+  const handleSearchChange = (searchTerm) => {
+    setSearchTerm(searchTerm);
+  };
+
   const sortedProducts = [...productData].sort((a, b) => {
     return sortOrder === 'asc' ? a.price - b.price : b.price - a.price;
   });
@@ -68,7 +76,8 @@ function App() {
     (!selectedCategory || 
       (item.categories[0] === selectedCategory.categoryFirst &&
        item.categories[1] === selectedCategory.categorySecond)) &&
-    (!isFreeShipping || item.free_shipping) 
+    (!isFreeShipping || item.free_shipping) &&
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   const currentProducts = filteredProducts.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
@@ -76,7 +85,7 @@ function App() {
   useEffect(() => {
     setTotalPages(Math.ceil(filteredProducts.length / itemsPerPage));
     setCurrentPage(1);
-  }, [selectedBrands, selectedRating, productData, sortOrder, itemsPerPage, filteredProducts.length, isFreeShipping]); // Add isFreeShipping to the dependency array
+  }, [selectedBrands, selectedRating, productData, sortOrder, itemsPerPage, filteredProducts.length, isFreeShipping]); 
 
   const handlePageChange = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {
@@ -97,12 +106,7 @@ function App() {
   };
 
   const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
-
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
+  const { t } = useTranslation();
 
   const countRatings = (products) => {
     const ratingCounts = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
@@ -117,21 +121,23 @@ function App() {
 
   return (
     <div>
-    <button onClick={() => changeLanguage('en')}>English</button>
-    <button onClick={() => changeLanguage('vi')}>Tiếng Việt</button> 
-
-      <div className="flex mr-10 mt-96 mx-20">
-        <div className="filter min-w-72 max-w-72 mr-8">
-          <div>
-            <h1 className="mb-4">{t('filter')}</h1>
+      <div>
+        <LanguageSwitcher />
+      </div>
+      <Header onSearchChange={handleSearchChange} />
+      <div className="flex mr-10 mt-64 mx-20">
+        <div className="filter min-w-72 max-w-72 mr-8 hidden lg:block">
+          <div className="flex">
+            <h1 className="mb-3 font-bold text-xl">{t('filter')}</h1>
+            <div className="pt-1 flex ml-32 text-xs text-gray-500"><Reset></Reset></div>
           </div>
           <div className="border-t">
             <Accordion products={productData} onCategorySelect={handleCategorySelect} />
           </div>
           <div className="border-t mt-10 pt-10">
             <div className="mb-4 font-bold">{t('brand')}</div>
-            {brands.map((b, idx) => (
-              <Brand key={idx} brand={b} isSelected={selectedBrands.includes(b)} onChange={handleBrandChange} />
+            {brands.map((brand, idx) => (
+              <Brand key={idx} brand={brand} isSelected={selectedBrands.includes(brand)} onChange={handleBrandChange} />
             ))}
           </div>
           <div className="border-t mt-10 pt-10">
@@ -154,7 +160,7 @@ function App() {
             {currentProducts.map((item) => (
               <Product
                 key={item.id}
-                productimg={item.image}
+                productImg={item.image}
                 title={item.name}
                 descript={item.description}
                 category={item.categories[0]}
@@ -164,28 +170,16 @@ function App() {
             ))}
           </div>
           <div className="pagination-controls flex justify-center mt-4">
-            <button
-              onClick={() => handlePageChange(currentPage - 1)}
-              disabled={currentPage === 1}
-              className="px-4 py-2"
-            >
-              <img className="h-2 w-2" src="https://www.svgrepo.com/show/486232/left-arrow-backup-2.svg" alt="Previous" />
+            <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1} className="px-4 py-2">
+              <img className="h-2 w-2" src="https://www.svgrepo.com/show/486232/left-arrow-backup-2.svg" alt={t('pagi')} />
             </button>
             {pageNumbers.map((pageNumber) => (
-              <button
-                key={pageNumber}
-                onClick={() => handlePageChange(pageNumber)}
-                className={`px-4 mx-1 py-2 rounded ${currentPage === pageNumber ? 'pagi-bg text-white font-bold' : 'bg-gray-100'}`}
-              >
+              <button key={pageNumber} onClick={() => handlePageChange(pageNumber)} className={`px-4 mx-1 py-2 rounded ${currentPage === pageNumber ? 'pagi-bg text-white font-bold' : 'bg-gray-100'}`}>
                 {pageNumber}
               </button>
             ))}
-            <button
-              onClick={() => handlePageChange(currentPage + 1)}
-              disabled={currentPage === totalPages}
-              className="px-4 py-2"
-            >
-              <img className="h-2 w-2 rotate-180" src="https://www.svgrepo.com/show/486232/left-arrow-backup-2.svg" alt="Next" />
+            <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages} className="px-4 py-2">
+              <img className="h-2 w-2 rotate-180" src="https://www.svgrepo.com/show/486232/left-arrow-backup-2.svg" alt={t('pagi')} />
             </button>
           </div>
         </div>

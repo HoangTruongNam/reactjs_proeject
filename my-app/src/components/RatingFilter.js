@@ -1,5 +1,4 @@
 import React from 'react';
-import '../asset/scripts/i18n'
 import { useTranslation } from 'react-i18next';
 
 const RatingFilter = ({ ratingCounts, onRatingClick }) => {
@@ -7,7 +6,7 @@ const RatingFilter = ({ ratingCounts, onRatingClick }) => {
   return (
     <div>
       <h2 className="mb-4 font-bold">{t('rating')}</h2>
-      <ul className='flex flex-col-reverse'>
+      <ul className="flex flex-col-reverse">
         {Object.entries(ratingCounts).map(([rating, count]) => (
           <li key={rating}>
             <button onClick={() => onRatingClick(Number(rating))}>
