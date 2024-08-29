@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 import React from 'react';
-import '../asset/scripts/i18n'
 import { useTranslation } from 'react-i18next';
 import '../asset/css/Toggle.css';
 
@@ -15,18 +13,6 @@ function Toggle({ toggled, onToggle }) {
           <div className="thumb"></div>
         </button>
       </div>
-=======
-import React, { useState } from 'react';
-import '../asset/css/Toggle.css'
-function Toggle() {
-  const [toggled, setToggled] = useState(false);
-
-  return (
-    <div>
-      <button className={`toggle-btn ${toggled ? 'toggled' :"" }`} onClick={() => setToggled(!toggled)}>
-        <div className="thumb"></div>
-      </button>
->>>>>>> main
     </div>
   );
 }

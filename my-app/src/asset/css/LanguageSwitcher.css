@@ -1,0 +1,10 @@
+.lang {
+    position:fixed;
+    background-color: rgb(225, 163, 1);
+    border-radius: 99px;
+    width:50px;
+    height:50px;
+    z-index:2;
+    bottom:50px;
+    left:10px
+}

@@ -4,5 +4,12 @@
 }
 .logo {
     z-index:2;
-    transform:translateY(60px)
+    transform:translateY(50px)
+}
+
+.search-bar
+{
+    z-index:2;
+    transform:translateY(90px);
+    width: 44rem
 }

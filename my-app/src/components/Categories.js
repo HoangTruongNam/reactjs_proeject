@@ -46,7 +46,6 @@ function Accordion({ products, onCategorySelect }) {
                                     </div>
                                     {activeSecondIndex === idx && (
                                         <div className="pl-5">
-                                            {/* You can display additional details if needed */}
                                         </div>
                                     )}
                                 </div>

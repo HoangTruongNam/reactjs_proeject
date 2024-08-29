@@ -1,6 +1,6 @@
 {
-    "category":"danh mục",
-    "filter":"lọc",
+    "category":"Danh mục",
+    "filter":"Lọc",
     "brand":"Hãng",
     "price":"Giá",
     "free-ship":"Miễn phí giao hàng",
@@ -11,5 +11,7 @@
     "4h":"4 sản phẩm một trang",
     "8h":"8 sản phẩm một trang",
     "12h":"12 sản phẩm một trang",
-    "16h":"16 sản phẩm một trang"
+    "16h":"16 sản phẩm một trang",
+    "reset": "xoá bộ lọc",
+    "pagi":"chuyển trang"
 }
